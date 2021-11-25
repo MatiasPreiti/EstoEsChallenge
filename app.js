@@ -23,7 +23,7 @@ const options = {
 };
 const swaggerSpec = swaggerJsDoc(options);
 
-app.use('/', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 //router.
 app.use('/proyects', proyectRouter);
