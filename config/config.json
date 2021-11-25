@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "EstoEs_Development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "SECRET_TOKEN": "EstoEs2021"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "EstoEs_Test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "EstoEs_Production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
