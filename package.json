@@ -6,6 +6,7 @@
   "scripts": {
     "prod": "node app.js",
     "dev": "nodemon app.js"
+    "build": "sequelize db:create && sequelize db:migrate && sequelize db:seed:all"
   },
   "repository": {
     "type": "git",
